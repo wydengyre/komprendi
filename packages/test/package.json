@@ -1,0 +1,13 @@
+{
+	"name": "@komprendi/test",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"typecheck": "tsc"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "20.11.30",
+		"typescript": "5.4.3"
+	}
+}

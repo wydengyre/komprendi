@@ -1,0 +1,21 @@
+{
+	"name": "@komprendi/epub",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"test": "tsx --test '*.test.ts'",
+		"typecheck": "tsc"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@komprendi/test": "*",
+		"@tsconfig/strictest": "2.0.5",
+		"@types/node": "20.11.30",
+		"tsx": "4.7.1",
+		"typescript": "5.4.3"
+	},
+	"dependencies": {
+		"@xmldom/xmldom": "^0.8.10",
+		"jszip": "^3.10.1"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "@komprendi/cli",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"main": "tsx -r dotenv/config main.ts",
+		"typecheck": "tsc"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@tsconfig/strictest": "2.0.5",
+		"@types/html-to-text": "9.0.4",
+		"@types/node": "20.11.30",
+		"dotenv": "16.4.5",
+		"tsx": "4.7.1",
+		"typescript": "5.4.3"
+	},
+	"dependencies": {
+		"@anthropic-ai/sdk": "^0.19.0",
+		"@komprendi/epub": "*",
+		"@komprendi/test": "*",
+		"html-to-text": "^9.0.5"
+	}
+}
